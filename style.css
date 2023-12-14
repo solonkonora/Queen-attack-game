@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  gap: 2px;
+  background-color: #eee;
+  border: 2px solid #444343;
+  margin-bottom: 20px;
+}
+
+.board div {
+  background-color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+button:active {
+  background-color: #999;
+}
